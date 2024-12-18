@@ -3,14 +3,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e0e0; /* Optional background color */
+    background-color: #e0e0e0; 
     margin: 0;
 }
 
 .container {
     width: 320px;
     height: 190px;
-    background-image: url(/images/bg.png);
+    background-image: url(bg.png);
     background-size: cover;
     border-radius: 15px;
     padding: 20px;
