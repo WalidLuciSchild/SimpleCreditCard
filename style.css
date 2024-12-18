@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0; /* Optional background color */
+    margin: 0;
+}
+
+.container {
+    width: 320px;
+    height: 190px;
+    background-image: url(/images/bg.png);
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    margin-right: 10px;
+}
+.chip{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.card-details{
+    margin-top: 40px;
+}
+ .card-number-name{
+  font-size: 1.2em;
+    }
+.card-number {
+        font-size: 1.2em;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+}
+.card-details .card-holder{
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.valid-thru {
+ position: absolute;
+ right: 20px;
+ bottom: 20px;
+}
+
+
+
